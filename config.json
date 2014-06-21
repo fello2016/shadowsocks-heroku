@@ -1,0 +1,7 @@
+{
+    "server": ["sheltered-garden-3379.herokuapp.com"],
+    "local_port": 13520,
+    "password": "thanksverymuch",
+    "timeout": 600,
+    "method": "rc4"
+}
