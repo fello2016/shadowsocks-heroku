@@ -1,5 +1,5 @@
 {
-    "server": ["shad0ws0cks.cloudcontrolled.com"],
+    "server": ["shad0ws0cks.cloudcontrollapp.com"],
     "local_port": 13520,
     "password": "thanksverymuch",
     "timeout": 600,
