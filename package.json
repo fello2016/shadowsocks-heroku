@@ -2,7 +2,7 @@
   "name": "shadowsocks-heroku",
   "version": "0.9.6",
   "dependencies": {
-    "socket.io": "^1.0.6"
+    "socket.io": "1.0.6"
   },
   "engines": {
     "node": "0.10.x"
