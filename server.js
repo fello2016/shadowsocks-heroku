@@ -53,7 +53,7 @@
 
   portPassword = config.port_password;
 
-  PORT = process.env.PORT || 8080;
+  PORT = process.env.PORT || 80;
 
   KEY = config.password;
 

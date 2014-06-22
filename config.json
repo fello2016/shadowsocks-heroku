@@ -2,6 +2,6 @@
     "server": ["shad0ws0cks.cloudcontrollapp.com"],
     "local_port": 13520,
     "password": "thanksverymuch",
-    "timeout": 600,
+    "timeout": 60,
     "method": "rc4"
 }
