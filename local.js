@@ -14,8 +14,6 @@
 
   args = require('./args');
 
-  var sio = require('./socket.io');
-  
   Encryptor = require("./encrypt").Encryptor;
 
   console.log(args.version);
