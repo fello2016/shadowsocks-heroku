@@ -1,7 +1,7 @@
 {
-    "server": ["shad0ws0cks.cloudcontrollapp.com"],
+    "server": ["shad0ws0cks.cloudcontrolapp.com"],
     "local_port": 13520,
     "password": "thanksverymuch",
     "timeout": 60,
-    "method": "rc4"
+    "method": "aes-256-cfb"
 }
