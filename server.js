@@ -9,7 +9,7 @@
   path = require("path");
 
   http = require("http");
-  
+
   args = require("./args");
 
   Encryptor = require("./encrypt").Encryptor;
@@ -66,9 +66,8 @@
     return res.end('Good Day!');
   });
 
-  var sio = require("socket.io")(server);
-  sio.on('connection',function(connection){
-	var addrLen, cachedPieces, encryptor, headerLength, remote, remoteAddr, remotePort, stage;
+  server.on('upgrade', function(req, connection, head) {
+    var addrLen, cachedPieces, encryptor, headerLength, remote, remoteAddr, remotePort, stage;
     connection.write('HTTP/1.1 101 Web Socket Protocol Handshake\r\n' + 'Upgrade: WebSocket\r\n' + 'Connection: Upgrade\r\n' + '\r\n');
     console.log("server connected");
     console.log("concurrent connections: " + server.connections);
@@ -191,7 +190,7 @@
       return connection.destroy();
     });
   });
-  
+
   server.listen(PORT, function() {
     return console.log("server listening at port " + PORT);
   });
