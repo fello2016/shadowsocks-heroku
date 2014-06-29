@@ -1,7 +1,7 @@
 {
-    "server": ["shad0ws0cks.cloudcontrolapp.com"],
+    "server": ["sheltered-garden-3379.herokuapp.com"],
     "local_port": 13520,
     "password": "thanksverymuch",
-    "timeout": 20,
+    "timeout": 30,
     "method": "aes-256-cfb"
 }
