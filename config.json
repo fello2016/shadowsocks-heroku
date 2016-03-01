@@ -1,7 +1,7 @@
 {
-    "server": ["sheltered-garden-3379.herokuapp.com"],
-    "local_port": 13520,
-    "password": "thanksverymuch",
-    "timeout": 30,
+    "server": ["year2016.herokuapp.com"],
+    "local_port": 1080,
+    "password": "year2016",
+    "timeout": 300,
     "method": "aes-256-cfb"
 }
